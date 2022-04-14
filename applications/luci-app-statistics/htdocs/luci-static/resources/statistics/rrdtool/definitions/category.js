@@ -21,10 +21,10 @@ return baseclass.extend({
 			Example:
 			var interface_name = uci.get("network", "wan", "device");
 		*/
-		var data_instances = graph.dataInstances(host, plugin, plugin_instance, "if_octets").sort();
+		var interface_instances = graph.dataInstances(host, plugin, plugin_instance, "if_octets").sort();
 
-		var show_3g_wwan = (-1 != data_instances.indexOf("3g_wwan"));
-		var show_eth1 = (-1 != data_instances.indexOf("eth1"));
+		var show_3g_wwan = (-1 != interface_instances.indexOf("3g_wwan"));
+		var show_eth1 = (-1 != interface_instances.indexOf("eth1"));
 
 		var if_octets = {
 			title: title,
