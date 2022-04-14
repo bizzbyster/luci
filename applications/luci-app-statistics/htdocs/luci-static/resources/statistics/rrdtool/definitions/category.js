@@ -21,6 +21,10 @@ return baseclass.extend({
 			Example:
 			var interface_name = uci.get("network", "wan", "device");
 		*/
+		var data_instances = graph.dataInstances(host, plugin, plugin_instance, "if_octets").sort();
+
+		var show_3g_wwan = (-1 != data_instances.indexOf("3g_wwan"));
+		var show_eth1 = (-1 != data_instances.indexOf("eth1"));
 
 		var if_octets = {
 			title: title,
@@ -29,7 +33,10 @@ return baseclass.extend({
 			vlabel: "Bytes/s",
 			data: {
 				instances: {
-					if_octets: [ "3g_wwan", "eth1"]
+					if_octets: [ 
+						(show_3g_wwan ? ["3g_wwan"] : []), 
+						(show_eth1 ? ["eth1"] : [])
+					]
 				},
 				sources: {
 					if_octets: [ "tx", "rx" ],
