@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2022-02-05 09:21+0000\n"
-"Last-Translator: Hulen <shift0106@gmail.com>\n"
+"PO-Revision-Date: 2022-04-12 20:58+0000\n"
+"Last-Translator: 王攀 <41330784@qq.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "openwrt/luci/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -10,7 +10,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:621
+msgctxt "Yet unknown nftables table family (\"family\" table \"name\")"
+msgid "\"%h\" table \"%h\""
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1516
 msgid "%.1f dB"
@@ -20,7 +25,7 @@ msgstr "%.1f 分貝"
 msgid "%d Bit"
 msgstr "%d 位元"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3735
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4028
 msgid "%d invalid field(s)"
 msgstr "%d 個無效欄位"
 
@@ -38,14 +43,14 @@ msgstr "(%d 分鐘視窗, %d 秒間隔)"
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:118
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:124
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:258
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:282
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:259
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:283
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:88
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:91
 msgid "(empty)"
 msgstr "(空白)"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:351
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:352
 #: modules/luci-compat/luasrc/view/cbi/network_netinfo.htm:23
 #: modules/luci-compat/luasrc/view/cbi/network_netlist.htm:58
 msgid "(no interfaces attached)"
@@ -56,8 +61,8 @@ msgid "-- Additional Field --"
 msgstr "-- 額外欄位 --"
 
 #: modules/luci-base/htdocs/luci-static/resources/cbi.js:275
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3669
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4037
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3733
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4101
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:798
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:1036
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2009
@@ -106,6 +111,12 @@ msgstr "1"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/load.js:233
 msgid "1 Minute Load:"
 msgstr "1分鐘負載:"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:299
+msgctxt "nft amount of flags"
+msgid "1 flag"
+msgid_plural "%d flags"
+msgstr[0] ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/load.js:253
 msgid "15 Minute Load:"
@@ -214,6 +225,51 @@ msgstr "<abbr title=\"Router Advertisement\">RA</abbr> MTU"
 msgid "<abbr title=\"Router Advertisement\">RA</abbr>-Service"
 msgstr "<abbr title=\"Router Advertisement\">RA</abbr> 服務"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:78
+msgctxt "nft relational \">\" operator expression"
+msgid "<var>%s</var> greater than <strong>%s</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:76
+msgctxt "nft relational \">=\" operator expression"
+msgid "<var>%s</var> greater than or equal to <strong>%s</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:81
+msgctxt "nft set match expression"
+msgid "<var>%s</var> in set <strong>%s</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:74
+msgctxt "nft relational \"==\" operator expression"
+msgid "<var>%s</var> is <strong>%s</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:80
+msgctxt "nft relational \"in\" operator expression"
+msgid "<var>%s</var> is one of <strong>%s</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:79
+msgctxt "nft relational \"<\" operator expression"
+msgid "<var>%s</var> lower than <strong>%s</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:77
+msgctxt "nft relational \"<=\" operator expression"
+msgid "<var>%s</var> lower than or equal to <strong>%s</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:75
+msgctxt "nft relational \"!=\" operator expression"
+msgid "<var>%s</var> not <strong>%s</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:82
+msgctxt "nft not in set match expression"
+msgid "<var>%s</var> not in set <strong>%s</strong>"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:370
 msgid "A configuration for the device \"%s\" already exists"
 msgstr "裝置「%s」的設定已存在"
@@ -222,7 +278,7 @@ msgstr "裝置「%s」的設定已存在"
 msgid "A directory with the same name already exists."
 msgstr "已存在同名的目錄。"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2662
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2664
 msgid "A new login is required since the authentication session expired."
 msgstr "因為身分驗證會話已逾期，需要重新登入。"
 
@@ -230,7 +286,7 @@ msgstr "因為身分驗證會話已逾期，需要重新登入。"
 msgid ""
 "A random, on the fly generated \"PrivateKey\", the key will not be saved on "
 "the router"
-msgstr ""
+msgstr "一枚隨機、執行中產生的 \"PrivateKey\"，此金鑰不會被儲存在路由器上"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1496
 msgid "A43C + J43 + A43"
@@ -283,6 +339,10 @@ msgstr "ARP 監視尚不支援已選擇的政策！"
 msgid "ARP retry threshold"
 msgstr "ARP重試門檻"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:609
+msgid "ARP traffic table \"%h\""
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1504
 msgid "ATM (Asynchronous Transfer Mode)"
 msgstr "ATM (非同步傳輸模式)"
@@ -319,9 +379,9 @@ msgstr "ATM裝置號碼"
 msgid "ATU-C System Vendor ID"
 msgstr "ATU-C 系統廠牌 ID"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:265
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:547
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:551
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:266
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:548
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:552
 msgid "Absent Interface"
 msgstr "缺少的介面"
 
@@ -332,6 +392,11 @@ msgstr "僅在網卡所屬的子網路中提供 DNS 服務。"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:647
 msgid "Accept local"
 msgstr "接受本地連接"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:86
+msgctxt "nft accept action"
+msgid "Accept packet"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:647
 msgid "Accept packets with local source addresses"
@@ -406,7 +471,7 @@ msgstr "自適應發送負載平衡 (balance-tlb, 5)"
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2232
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2245
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2253
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3467
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3531
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:25
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:189
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:197
@@ -496,6 +561,11 @@ msgstr "額外的伺服器文件"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:43
 msgid "Address"
 msgstr "位址"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:22
+msgctxt "nft meta nfproto"
+msgid "Address family"
+msgstr ""
 
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:151
 msgid "Address to access local relay bridge"
@@ -774,9 +844,14 @@ msgstr "自動掛載檔案系統"
 msgid "Anonymous Swap"
 msgstr "自動掛載swap分區"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:490
+msgctxt "nft match any traffic"
+msgid "Any packet"
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:84
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:174
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:195
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:196
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:60
 msgid "Any zone"
 msgstr "任意區域"
@@ -789,16 +864,16 @@ msgstr "始終傳送 DHCP 選項。 有時需要，例如 PXELinux。"
 msgid "Apply backup?"
 msgstr "是否套用備份？"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4322
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4615
 msgid "Apply request failed with status <code>%h</code>"
 msgstr "套用要求失敗，狀態 <code>%h</code>"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2173
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4188
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2175
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4481
 msgid "Apply unchecked"
 msgstr "應用未核取"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4261
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4554
 msgid "Applying configuration changes… %ds"
 msgstr "組態變更套用中… %ds"
 
@@ -808,7 +883,7 @@ msgstr "架構"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:155
 msgid "Arp-scan"
-msgstr ""
+msgstr "Arp 掃描"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:973
 msgid ""
@@ -829,6 +904,20 @@ msgstr "已連接裝置"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:151
 msgid "Associations"
 msgstr "已連接裝置"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:116
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:117
+msgid ""
+"At least <strong>%h</strong> per <strong>%h</strong>, burst of <strong>%h</"
+"strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:114
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:115
+msgid ""
+"At most <strong>%h</strong> per <strong>%h</strong>, burst of <strong>%h</"
+"strong>"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:154
 msgid "Attempt to enable configured mount points for attached devices"
@@ -938,7 +1027,7 @@ msgstr "BR / DMR / AFTR"
 msgid "BSSID"
 msgstr "BSSID"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3136
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3200
 msgid "Back"
 msgstr "返回"
 
@@ -975,7 +1064,7 @@ msgstr "基礎裝置"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:102
 msgid "Base64-encoded public key of this interface for sharing."
-msgstr ""
+msgstr "此介面用於分享的 Base64 編碼的公鑰。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:974
 msgid "Beacon Interval"
@@ -1056,6 +1145,10 @@ msgstr "橋接連接埠特定選項"
 msgid "Bridge ports"
 msgstr "橋接連接埠"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:613
+msgid "Bridge traffic table \"%h\""
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1565
 msgid "Bridge unit number"
 msgstr "橋接單位號碼"
@@ -1077,7 +1170,7 @@ msgid "Broadcast policy (broadcast, 3)"
 msgstr "廣播政策（廣播，3）"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2845
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3845
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4138
 msgid "Browse…"
 msgstr "瀏覽…"
 
@@ -1108,7 +1201,7 @@ msgid "Call failed"
 msgstr "呼叫失敗"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2938
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3854
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4147
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:14
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:188
@@ -1119,6 +1212,36 @@ msgstr "呼叫失敗"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:203
 msgid "Cancel"
 msgstr "取消"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:540
+msgctxt "Chain hook: forward"
+msgid "Capture incoming packets addressed to other hosts"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:532
+msgctxt "Chain hook: prerouting"
+msgid "Capture incoming packets before any routing decision"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:536
+msgctxt "Chain hook: input"
+msgid "Capture incoming packets routed to the local system"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:548
+msgctxt "Chain hook: postrouting"
+msgid "Capture outgoing packets after any routing decision"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:544
+msgctxt "Chain hook: output"
+msgid "Capture outgoing packets originating from the local system"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:528
+msgctxt "Chain hook: ingress"
+msgid "Capture packets directly after the NIC received them"
+msgstr ""
 
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:17
 msgid "Category"
@@ -1178,11 +1301,16 @@ msgstr ""
 msgid "Chain"
 msgstr "鏈"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4074
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:552
+msgctxt "Yet unknown nftables chain hook"
+msgid "Chain hook \"%h\""
+msgstr ""
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4367
 msgid "Changes"
 msgstr "待修改"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4357
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4650
 msgid "Changes have been reverted."
 msgstr "設定值已還原."
 
@@ -1200,7 +1328,7 @@ msgstr "修改可存取這設備的管理員密碼"
 msgid "Channel"
 msgstr "頻道"
 
-#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:81
+#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:98
 msgid "Channel Analysis"
 msgstr "通道分析"
 
@@ -1281,7 +1409,7 @@ msgstr "用戶端"
 msgid "Client ID to send when requesting DHCP"
 msgstr "當要求DHCP時要傳送的用戶識別碼ID"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4091
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4384
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:167
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:173
 msgid "Close"
@@ -1346,16 +1474,16 @@ msgstr ""
 msgid "Compute outgoing checksum (optional)."
 msgstr "計算傳出的校驗和(自選)."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4074
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4367
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:454
 msgid "Configuration"
 msgstr "組態"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4236
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4529
 msgid "Configuration changes applied."
 msgstr "組態變更已套用。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4174
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4467
 msgid "Configuration changes have been rolled back!"
 msgstr "組態變更已被復原！"
 
@@ -1433,9 +1561,19 @@ msgstr "嘗試連線失敗."
 msgid "Connection lost"
 msgstr "連接遺失"
 
-#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:136
+#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:153
 msgid "Connections"
 msgstr "連線數"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:28
+msgctxt "nft ct state"
+msgid "Conntrack state"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:30
+msgctxt "nft ct status"
+msgid "Conntrack status"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:378
 msgid "Consider the slave up when all ARP IP targets are reachable (all, 1)"
@@ -1459,7 +1597,21 @@ msgstr "內容已儲存。"
 msgid "Continue"
 msgstr "繼續"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4210
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:88
+msgctxt "nft jump action"
+msgid "Continue in <strong><a href=\"#%q.%q\">%h</a></strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:119
+msgid "Continue in calling chain"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:522
+msgctxt "Chain policy: accept"
+msgid "Continue processing unmatched packets"
+msgstr ""
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4503
 msgid ""
 "Could not regain access to the device after applying the configuration "
 "changes. You might need to reconnect if you modified network related "
@@ -1501,8 +1653,8 @@ msgstr "Cron 日誌等級"
 msgid "Current power"
 msgstr "目前功率"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:572
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:574
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:573
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:575
 #: modules/luci-compat/luasrc/view/cbi/network_ifacelist.htm:51
 #: modules/luci-compat/luasrc/view/cbi/network_ifacelist.htm:53
 #: modules/luci-compat/luasrc/view/cbi/network_ifacelist.htm:82
@@ -1547,7 +1699,7 @@ msgstr "DAE-金鑰"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:524
 msgid "DHCP Options"
-msgstr ""
+msgstr "DHCP 選項"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:483
 msgid "DHCP Server"
@@ -1686,14 +1838,18 @@ msgid ""
 "priority on incoming frames"
 msgstr "在傳入框架上定義 VLAN 標頭優先順序到 Linux 內部封包優先順序的對應"
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:86
+msgid "Defines a specific MTU for this route"
+msgstr "為此路由定義一個特定的 MTU"
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:970
 msgid "Delegate IPv6 prefixes"
 msgstr "委派 IPv6 首碼"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2309
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2738
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2742
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3451
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2740
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2744
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3515
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2907
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:11
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:162
@@ -1742,9 +1898,24 @@ msgstr "指定的主介面"
 msgid "Destination"
 msgstr "目的地"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:41
+msgctxt "nft ip daddr"
+msgid "Destination IP"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:45
+msgctxt "nft ip6 daddr"
+msgid "Destination IPv6"
+msgstr ""
+
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:48
 msgid "Destination port"
 msgstr "目的通訊埠"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:43
+msgctxt "nft ip dport"
+msgid "Destination port"
+msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:59
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:165
@@ -1752,7 +1923,7 @@ msgid "Destination zone"
 msgstr "目標區域"
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:67
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:191
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:192
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:43
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:46
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:81
@@ -1797,7 +1968,7 @@ msgstr "裝置不存在"
 msgid "Device type"
 msgstr "裝置類型"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4209
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4502
 msgid "Device unreachable!"
 msgstr "裝置不可達！"
 
@@ -1823,7 +1994,7 @@ msgid "Directory"
 msgstr "目錄"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:113
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:195
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:200
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:897
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:937
 msgid "Disable"
@@ -1895,13 +2066,13 @@ msgstr "嘗試中斷線連失敗."
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/25_storage.js:35
 msgid "Disk space"
-msgstr ""
+msgstr "磁碟空間"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:607
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3010
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3149
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3353
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4180
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3012
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3213
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3646
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4473
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1770
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:358
 msgid "Dismiss"
@@ -1920,6 +2091,8 @@ msgid ""
 "Dnsmasq instance to which this boot section is bound. If unspecified, the "
 "section is valid for all dnsmasq instances."
 msgstr ""
+"此引導部分繫結到的 Dnsmasq 實例。 如果未指定，該部分對所有 dnsmasq 實例都有"
+"效。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:246
 msgid ""
@@ -2007,7 +2180,7 @@ msgstr "您真的要遞迴刪除目錄 \"%s\" 嗎？"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:592
 msgid "Domain"
-msgstr ""
+msgstr "網域名稱"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:261
 msgid "Domain required"
@@ -2043,13 +2216,23 @@ msgstr "下載 mtdblock"
 msgid "Downstream SNR offset"
 msgstr "下載串流 SNR 位移"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2696
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2698
 msgid "Drag to reorder"
 msgstr "拖動來排序"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:342
 msgid "Drop Duplicate Frames"
 msgstr "丟棄相同多餘的訊框(Frames)"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:87
+msgctxt "nft drop action"
+msgid "Drop packet"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:518
+msgctxt "Chain policy: drop"
+msgid "Drop unmatched packets"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:12
 msgid "Dropbear Instance"
@@ -2102,9 +2285,9 @@ msgstr "EA-位元長度"
 msgid "EAP-Method"
 msgstr "可擴展身份驗證協定(EAP)-方式"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2716
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2719
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3314
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2718
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2721
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3378
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:154
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:160
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:495
@@ -2130,9 +2313,19 @@ msgstr "編輯此網路"
 msgid "Edit wireless network"
 msgstr "編輯無線網路"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:60
+msgctxt "nft rt mtu"
+msgid "Effective route MTU"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:462
 msgid "Egress QoS mapping"
 msgstr "輸出 QoS 對應"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:11
+msgctxt "nft meta oifname"
+msgid "Egress device name"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:166
 msgctxt "VLAN port state"
@@ -2387,6 +2580,11 @@ msgstr "強制 MLD 版本 1"
 msgid "Enforce MLD version 2"
 msgstr "強制 MLD 版本 2"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:13
+msgctxt "nft meta oif"
+msgid "Engress device id"
+msgstr ""
+
 #: modules/luci-compat/luasrc/view/cbi/dropdown.htm:16
 msgid "Enter custom value"
 msgstr "輸入自訂數值"
@@ -2546,7 +2744,7 @@ msgstr "FT 協定"
 msgid "Failed to change the system password."
 msgstr "更新系統密碼失敗。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4168
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4461
 msgid "Failed to confirm apply within %ds, waiting for rollback…"
 msgstr "無法在 %ds 秒內確認變更，等待回滾…"
 
@@ -2584,7 +2782,7 @@ msgstr "本地<abbr title=\"Domain Name System\">DNS</abbr> 檔案"
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2846
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:506
 msgid "Filename"
-msgstr "檔名"
+msgstr "檔案名"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:492
 msgid "Filename of the boot image advertised to clients."
@@ -2635,8 +2833,12 @@ msgid "Finish"
 msgstr "完成"
 
 #: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:27
-msgid "Firewall"
-msgstr "防火牆"
+msgid "Firewall (iptables)"
+msgstr ""
+
+#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:43
+msgid "Firewall (nftables)"
+msgstr ""
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:149
 msgid "Firewall Mark"
@@ -2799,6 +3001,11 @@ msgstr "轉發模式"
 msgid "Fragmentation Threshold"
 msgstr "分片閥值"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:57
+msgctxt "nft nat flag fully-random"
+msgid "Full port randomization"
+msgstr ""
+
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:162
 msgid ""
 "Further information about WireGuard interfaces and peers at <a href='http://"
@@ -2917,8 +3124,8 @@ msgstr ""
 msgid "Go to password configuration..."
 msgstr "前往密碼設定..."
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2638
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3633
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2640
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3697
 #: modules/luci-compat/luasrc/view/cbi/full_valueheader.htm:4
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:58
 msgid "Go to relevant configuration page"
@@ -3084,6 +3291,11 @@ msgstr "隱藏空白鏈結"
 msgid "High"
 msgstr "高速"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:565
+msgctxt "Chain hook description"
+msgid "Hook: <strong>%h</strong> (%h), Priority: <strong>%d</strong>"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:57
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2164
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:126
@@ -3145,6 +3357,18 @@ msgstr "人類看得懂的計數器"
 msgid "Hybrid"
 msgstr "複合式"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:46
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:48
+msgctxt "nft icmpv6 code"
+msgid "ICMPv6 code"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:47
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:49
+msgctxt "nft icmpv6 type"
+msgid "ICMPv6 type"
+msgstr ""
+
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:53
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:48
 msgid "ID used to uniquely identify the VXLAN"
@@ -3189,6 +3413,16 @@ msgstr "IP位址無效"
 #: modules/luci-compat/luasrc/model/network.lua:31
 msgid "IP address is missing"
 msgstr "缺少IP位址"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:33
+msgctxt "nft ip protocol"
+msgid "IP protocol"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:15
+msgctxt "nft meta l4proto"
+msgid "IP protocol"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:588
 msgid "IP set"
@@ -3279,6 +3513,10 @@ msgstr "IPv4 首碼"
 msgid "IPv4 prefix length"
 msgstr "IPv4前綴長度"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:597
+msgid "IPv4 traffic table \"%h\""
+msgstr ""
+
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:84
 msgid "IPv4+IPv6"
 msgstr "IPv4+IPv6"
@@ -3291,6 +3529,10 @@ msgstr "IPv4-包裹-IPv4 (RFC2003)"
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:127
 msgid "IPv4/IPv6 (both - defaults to IPv4)"
 msgstr "IPv4/IPv6 (雙啟 - 預設到IPv4)"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:605
+msgid "IPv4/IPv6 traffic table \"%h\""
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:91
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:114
@@ -3411,6 +3653,10 @@ msgstr ""
 msgid "IPv6 support"
 msgstr "IPv6 支援"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:601
+msgid "IPv6 traffic table \"%h\""
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:101
 msgid "IPv6-PD"
 msgstr "IPv6-前綴代理"
@@ -3455,6 +3701,10 @@ msgid ""
 "If set, downstream subnets are only allocated from the given IPv6 prefix "
 "classes."
 msgstr "如果設定，則僅從給定的 IPv6 前綴類別中分配下游子網路。"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:196
+msgid "If set, the meaning of the match options is inverted"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:254
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:360
@@ -3590,6 +3840,16 @@ msgstr "資訊"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:456
 msgid "Ingress QoS mapping"
 msgstr "入口 QoS 對應"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:12
+msgctxt "nft meta iif"
+msgid "Ingress device id"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:10
+msgctxt "nft meta iifname"
+msgid "Ingress device name"
+msgstr ""
 
 #: modules/luci-compat/luasrc/model/network/proto_ncm.lua:67
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:25
@@ -3790,7 +4050,7 @@ msgstr "錯誤的十六進制數值"
 msgid "Invalid username and/or password! Please try again."
 msgstr "不正確的使用者名稱和/或者密碼！請再試一次。"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:191
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:196
 msgid "Invert match"
 msgstr ""
 
@@ -3831,7 +4091,7 @@ msgid "Keep settings and retain the current configuration"
 msgstr "保留目前設定"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:20
-#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:60
+#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:77
 msgid "Kernel Log"
 msgstr "核心日誌"
 
@@ -3864,6 +4124,11 @@ msgstr "付予連入封包的金鑰(選項)."
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:103
 msgid "Key for outgoing packets (optional)."
 msgstr "付予連外封包的金鑰(選項)."
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:66
+msgctxt "nft unit"
+msgid "KiB"
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:54
 msgid "Kill"
@@ -3979,7 +4244,7 @@ msgstr ""
 "舊版或性能欠佳的設備可能需要舊版802.11b速率才能互操作. 使用這些功能時, 通話時"
 "間效率可能會大大降低. 建議盡可能不允許802.11b速率."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4076
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4369
 msgid "Legend:"
 msgstr "圖例:"
 
@@ -4086,7 +4351,7 @@ msgstr "僅監聽這些介面和回送 (loopback)。"
 msgid "Listening port for inbound DNS queries."
 msgstr "進入的DNS請求聆聽埠"
 
-#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:106
+#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:123
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:54
 msgid "Load"
 msgstr "負載"
@@ -4108,7 +4373,7 @@ msgstr ""
 msgid "Loading directory contents…"
 msgstr "讀取目錄內容…"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:1940
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:1942
 #: modules/luci-base/luasrc/view/view.htm:4
 #: modules/luci-mod-status/luasrc/view/admin_status/index.htm:12
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/sysauth.htm:45
@@ -4472,6 +4737,11 @@ msgstr "確定連接狀態的方式"
 msgid "Metric"
 msgstr "公測數"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:65
+msgctxt "nft unit"
+msgid "MiB"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:818
 msgid "Min <abbr title=\"Router Advertisement\">RA</abbr> interval"
 msgstr "最短 <abbr title=\"Router Advertisement\">RA</abbr> 間隔"
@@ -4663,6 +4933,10 @@ msgstr "多播到單播"
 msgid "NAS ID"
 msgstr "網路儲存設備(NAS)ID"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:508
+msgid "NAT action chain \"%h\""
+msgstr ""
+
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:87
 msgid "NAT-T Mode"
 msgstr "NAT-T 模式"
@@ -4689,7 +4963,7 @@ msgid "NTP server candidates"
 msgstr "候選 NTP 伺服器"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2618
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3831
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4124
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:27
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1097
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:68
@@ -4728,6 +5002,10 @@ msgstr "網路SSID"
 msgid "Network Utilities"
 msgstr "網路工具"
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:56
+msgid "Network address"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:491
 msgid "Network boot image"
 msgstr "網路開機映像檔"
@@ -4749,6 +5027,10 @@ msgstr "活躍中的網路裝置 (kernel: netdev)"
 #: modules/luci-compat/luasrc/model/network.lua:33
 msgid "Network device is not present"
 msgstr "網路設備不存在"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:617
+msgid "Network device table \"%h\""
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:426
 msgid "Network ifname configuration migration"
@@ -4785,7 +5067,7 @@ msgstr "新介面名稱…"
 msgid "Next »"
 msgstr "下一個 »"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3974
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4038
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:298
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:346
 msgid "No"
@@ -4826,6 +5108,11 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:69
 msgid "No client associated"
 msgstr "沒有已連接客戶端"
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3194
+msgctxt "empty table placeholder"
+msgid "No data"
+msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/rpc.js:406
 msgid "No data received"
@@ -4886,6 +5173,10 @@ msgstr "缺乏更多可用的實體界面, 無法儲存界面"
 msgid "No negative cache"
 msgstr "無負向快取"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:651
+msgid "No nftables ruleset load"
+msgstr ""
+
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:69
 #: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:59
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:79
@@ -4900,6 +5191,11 @@ msgstr "尚未定義節點群"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:277
 msgid "No public keys present yet."
 msgstr "尚無可用公鑰。"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:585
+msgctxt "nft chain is empty"
+msgid "No rules in this chain"
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:91
 msgid "No rules in this chain."
@@ -5120,7 +5416,7 @@ msgid "Operating frequency"
 msgstr "操作頻率"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2002
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3986
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4050
 msgid "Option \"%s\" contains an invalid input value."
 msgstr "選項 \"%s\" 含有無效的輸入數值。"
 
@@ -5128,11 +5424,11 @@ msgstr "選項 \"%s\" 含有無效的輸入數值。"
 msgid "Option \"%s\" must not be empty."
 msgstr "選項 \"%s\" 必須不能為空值。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4083
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4376
 msgid "Option changed"
 msgstr "選項已變更"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4085
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4378
 msgid "Option removed"
 msgstr "選項已移除"
 
@@ -5460,6 +5756,11 @@ msgstr ""
 msgid "Packet Steering"
 msgstr "封包操控"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:26
+msgctxt "nft meta mark"
+msgid "Packet mark"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:54
 msgid "Packets"
 msgstr "封包"
@@ -5539,7 +5840,7 @@ msgstr "內部用戶憑證的路徑"
 msgid "Path to inner Private Key"
 msgstr "內部私鑰的路徑"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2723
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2725
 msgid "Paused"
 msgstr "已暫停"
 
@@ -5636,13 +5937,18 @@ msgstr "Pkts(流量單位)."
 msgid "Please enter your username and password."
 msgstr "請輸入您的用戶名稱和密碼。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3814
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4107
 msgid "Please select the file to upload."
 msgstr "請選擇要上傳的檔案。"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:54
 msgid "Policy"
 msgstr "政策"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:566
+msgctxt "Chain hook policy"
+msgid "Policy: <strong>%h</strong> (%h)"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:21
 msgid "Port"
@@ -5680,7 +5986,7 @@ msgstr "偏好 UMTS"
 msgid "Prefix Delegated"
 msgstr "前綴委派"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:186
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:191
 msgid "Prefix suppressor"
 msgstr ""
 
@@ -5741,7 +6047,7 @@ msgid "Private Key"
 msgstr "私鑰"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:64
-#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:69
+#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:86
 msgid "Processes"
 msgstr "處理程序"
 
@@ -5881,6 +6187,11 @@ msgstr "接收速率"
 msgid "RX Rate / TX Rate"
 msgstr "接收速率 / 發送速率"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:56
+msgctxt "nft nat flag random"
+msgid "Randomize source port mapping"
+msgstr ""
+
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:88
 msgid "Raw hex-encoded bytes. Leave empty unless your ISP require this"
 msgstr "原生十六進制-編碼的位元組. 除非您的ISP要求否則將其留空"
@@ -5895,7 +6206,7 @@ msgstr ""
 msgid "Really switch protocol?"
 msgstr "確定要更換協定?"
 
-#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:94
+#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:111
 msgid "Realtime Graphs"
 msgstr "即時圖表"
 
@@ -5939,13 +6250,49 @@ msgstr "重新連接這個介面"
 msgid "Redirect to HTTPS"
 msgstr ""
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:108
+msgctxt "nft redirect to port"
+msgid "Redirect to local port <strong>%h</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:107
+msgctxt "nft redirect"
+msgid "Redirect to local system"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:57
 msgid "References"
 msgstr "引用"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2717
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2719
 msgid "Refreshing"
 msgstr "重新整理"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:91
+msgctxt "nft reject with icmp type"
+msgid "Reject IPv4 packet with <strong>ICMP type %h</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:93
+msgctxt "nft reject with icmpx type"
+msgid "Reject packet with <strong>ICMP type %h</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:92
+msgctxt "nft reject with icmpv6 type"
+msgid "Reject packet with <strong>ICMPv6 type %h</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:90
+msgctxt "nft reject with tcp reset"
+msgid "Reject packet with <strong>TCP reset</strong>"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:191
+msgid ""
+"Reject routing decisions that have a prefix length less than or equal to the "
+"specified value"
+msgstr ""
 
 #: modules/luci-compat/luasrc/model/network/proto_relay.lua:153
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:39
@@ -6117,7 +6464,7 @@ msgstr "要求wpa-supplicant支援WEP"
 msgid "Reselection policy for primary slave"
 msgstr "實體界面的重選政策"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2195
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2197
 #: modules/luci-base/luasrc/view/sysauth.htm:39
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:30
@@ -6182,21 +6529,65 @@ msgstr "顯示/隱藏 密碼"
 msgid "Reverse path filter"
 msgstr "反轉路徑過濾器"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4099
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4392
 msgid "Revert"
 msgstr "還原"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4184
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4477
 msgid "Revert changes"
 msgstr "還原更改"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4366
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4659
 msgid "Revert request failed with status <code>%h</code>"
 msgstr "還原請求失敗狀態碼<code>%h</code>"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4346
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4639
 msgid "Reverting configuration…"
 msgstr "正在還原設定值…"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:101
+msgctxt "nft dnat ip to addr"
+msgid "Rewrite destination to <strong>%h</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:104
+msgctxt "nft dnat ip6 to addr"
+msgid "Rewrite destination to <strong>%h</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:102
+msgctxt "nft dnat ip to addr:port"
+msgid "Rewrite destination to <strong>%h</strong>, port <strong>%h</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:105
+msgctxt "nft dnat ip6 to addr:port"
+msgid "Rewrite destination to <strong>%h</strong>, port <strong>%h</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:95
+msgctxt "nft snat ip to addr"
+msgid "Rewrite source to <strong>%h</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:98
+msgctxt "nft snat ip6 to addr"
+msgid "Rewrite source to <strong>%h</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:96
+msgctxt "nft snat ip to addr:port"
+msgid "Rewrite source to <strong>%h</strong>, port <strong>%h</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:99
+msgctxt "nft snat ip6 to addr:port"
+msgid "Rewrite source to <strong>%h</strong>, port <strong>%h</strong>"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:110
+msgid "Rewrite to egress device address"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:551
 msgid "Robustness"
@@ -6220,6 +6611,10 @@ msgstr "循環政策 (balance-rr, 0)"
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:280
 msgid "Route Allowed IPs"
 msgstr "路由允許的IP群"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:504
+msgid "Route action chain \"%h\""
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:45
 msgid "Route type"
@@ -6257,6 +6652,23 @@ msgstr "路由器指定介面導出到特定主機或者能夠到達的網路."
 msgid "Rule"
 msgstr "規則"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:574
+msgid "Rule actions"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:447
+msgctxt "nft comment"
+msgid "Rule comment: %s"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:512
+msgid "Rule container chain \"%h\""
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:573
+msgid "Rule matches"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:136
 msgid "Rule type"
 msgstr ""
@@ -6269,7 +6681,7 @@ msgstr "掛載這個設備前先跑系統檢查"
 msgid "Run filesystem check"
 msgstr "執行系統檢查"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2356
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2358
 msgid "Runtime error"
 msgstr "執行時錯誤"
 
@@ -6324,8 +6736,8 @@ msgstr "SSTP伺服器"
 msgid "SWAP"
 msgstr "SWAP"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3154
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2190
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3218
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2192
 #: modules/luci-compat/luasrc/view/cbi/error.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:26
 #: modules/luci-compat/luasrc/view/cbi/header.htm:20
@@ -6334,8 +6746,8 @@ msgstr "SWAP"
 msgid "Save"
 msgstr "儲存"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2172
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4095
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2174
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4388
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:22
 msgid "Save & Apply"
 msgstr "儲存並套用"
@@ -6361,11 +6773,11 @@ msgstr "掃描"
 msgid "Scheduled Tasks"
 msgstr "排程任務"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4079
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4372
 msgid "Section added"
 msgstr "已新增的區段"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4081
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4374
 msgid "Section removed"
 msgstr "區段移除"
 
@@ -6440,7 +6852,7 @@ msgstr "服務型態"
 msgid "Services"
 msgstr "服務"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2660
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2662
 msgid "Session expired"
 msgstr "會談結束"
 
@@ -6448,6 +6860,11 @@ msgstr "會談結束"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:167
 msgid "Set Static"
 msgstr "設定靜態"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:112
+msgctxt "nft mangle"
+msgid "Set header field <var>%s</var> to <strong>%s</strong>"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:921
 msgid "Set interface as NDP-Proxy external slave. Default is off."
@@ -6572,7 +6989,7 @@ msgstr "訊號重新整理頻率"
 msgid "Signal:"
 msgstr "信號:"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3832
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4125
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:222
 msgid "Size"
 msgstr "容量"
@@ -6642,10 +7059,25 @@ msgstr ""
 msgid "Source"
 msgstr "來源位址"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:40
+msgctxt "nft ip saddr"
+msgid "Source IP"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:44
+msgctxt "nft ip6 saddr"
+msgid "Source IPv6"
+msgstr ""
+
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:57
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:57
 msgid "Source interface"
 msgstr "來源界面"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:42
+msgctxt "nft ip sport"
+msgid "Source port"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:499
 msgid ""
@@ -6670,6 +7102,13 @@ msgstr ""
 "指定一個透過 DHCPv6 宣布的 IPv6 DNS 伺服器位址的固定列表。如未指定，裝置會宣"
 "布自己是 IPv6 DNS 伺服器，除非<em>本地 IPv6 DNS 伺服器</em>選項被停用。"
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:186
+msgid ""
+"Specifies an individual UID or range of UIDs to match, e.g. 1000 to match "
+"corresponding UID or 1000-1005 to inclusively match all UIDs within the "
+"corresponding range"
+msgstr ""
+
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:343
 msgid ""
 "Specifies that duplicate frames (received on inactive ports) should be "
@@ -6688,9 +7127,17 @@ msgstr "指定用於ARP監視的IP地址"
 msgid "Specifies the MII link monitoring frequency in milliseconds"
 msgstr "指定MII連接監視頻率(以毫秒為單位)"
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:181
+msgid "Specifies the TOS value to match in IP headers"
+msgstr ""
+
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:261
 msgid "Specifies the aggregation selection logic to use"
 msgstr "指定要使用的聚合選擇邏輯"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:159
+msgid "Specifies the destination subnet to match (CIDR notation)"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:292
 msgid "Specifies the directory the device is attached to"
@@ -6704,6 +7151,22 @@ msgid ""
 msgstr ""
 "指定<abbr title=\"路由器通告\">RA</abbr>訊息中傳送的標記，比如指示客戶端透過"
 "有狀態 DHCPv6 請求進一步的資訊。"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:176
+msgid ""
+"Specifies the fwmark and optionally its mask to match, e.g. 0xFF to match "
+"mark 255 or 0x0/0x1 to match any even mark value"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:144
+msgid "Specifies the incoming logical interface name"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:41
+msgid ""
+"Specifies the logical interface name of the parent (or master) interface "
+"this route belongs to"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:254
 msgid ""
@@ -6742,6 +7205,13 @@ msgstr "指定宣告載波之前必須處於活動狀態的最小連接數"
 msgid "Specifies the mode to be used for this bonding interface"
 msgstr "指定用於此綁定界面的模式"
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:75
+msgid ""
+"Specifies the network gateway. If omitted, the gateway from the parent "
+"interface is taken if any, otherwise creates a link scope route. If set to "
+"0.0.0.0 no gateway will be specified for the route"
+msgstr ""
+
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:334
 msgid ""
 "Specifies the number of IGMP membership reports to be issued after a "
@@ -6768,6 +7238,20 @@ msgid ""
 msgstr ""
 "指定綁定驅動程式, 將學習封包發送到每個實體界面節點交換機的實例之間的秒數"
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:129
+msgid "Specifies the ordering of the IP rules"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:155
+msgid "Specifies the outgoing logical interface name"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:99
+msgid ""
+"Specifies the preferred source address when sending to destinations covered "
+"by the target"
+msgstr ""
+
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:375
 msgid "Specifies the quantity of ARP IP targets that must be reachable"
 msgstr "指定必須達到的ARP IP目標數量"
@@ -6785,6 +7269,22 @@ msgid ""
 msgstr ""
 "當活躍的實體界面發生故障 或 主要實體界面復原發生故障時, 為主要實體界面指定重"
 "新選擇策略"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:79
+msgid "Specifies the route metric to use"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:45
+msgid "Specifies the route type to be created"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:136
+msgid "Specifies the rule target routing action"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:148
+msgid "Specifies the source subnet to match (CIDR notation)"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:246
 msgid "Specifies the system priority"
@@ -6928,7 +7428,7 @@ msgstr "啟動優先權"
 msgid "Start refresh"
 msgstr "開始更新"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4299
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4592
 msgid "Starting configuration apply…"
 msgstr "開始套用設定值…"
 
@@ -7085,8 +7585,8 @@ msgid "System"
 msgstr "系統"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:25
-#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:39
-#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:51
+#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:56
+#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:68
 msgid "System Log"
 msgstr "系統日誌"
 
@@ -7109,6 +7609,26 @@ msgstr ""
 
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm:86
 msgid "Sytem running in recovery (initramfs) mode."
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:62
+msgctxt "nft tcp option maxseg size"
+msgid "TCP MSS"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:51
+msgctxt "nft tcp dport"
+msgid "TCP destination port"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:54
+msgctxt "nft tcp flags"
+msgid "TCP flags"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:50
+msgctxt "nft tcp sport"
+msgid "TCP source port"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:338
@@ -7312,7 +7832,7 @@ msgid ""
 "network"
 msgstr "當加入隱形的無線網路時，必須手動指定正確的 SSID"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4175
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4468
 msgid ""
 "The device could not be reached within %d seconds after applying the pending "
 "changes, which caused the configuration to be rolled back for safety "
@@ -7508,6 +8028,19 @@ msgstr ""
 "加強性值允許調整網路上預期的資料封包遺失。 如果預期網路丟包率較高，可以增加加"
 "強性值。IGMP對於 (Robustness-1) 資料封包遺失具有健全性"
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:171
+msgid ""
+"The rule target is a jump to another rule specified by its priority value"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:91
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:166
+msgid ""
+"The rule target is a table lookup ID: a numeric table index ranging from 0 "
+"to 65535 or symbol alias declared in /etc/iproute2/rt_tables. Special "
+"aliases local (255), main (254) and default (253) are also valid"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1371
 msgid "The selected %s mode is incompatible with %s encryption"
 msgstr "選擇的模式 %s 與 %s 加密不相容"
@@ -7584,7 +8117,7 @@ msgstr "該值被設定覆蓋。 原始：%s"
 msgid "There are no active leases"
 msgstr "無活躍的租約"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4314
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4607
 msgid "There are no changes to apply"
 msgstr "無可套用的變更"
 
@@ -7718,7 +8251,7 @@ msgstr "連結遺失拓撲更新前的逾時時間 (以秒為單位)"
 msgid "Timezone"
 msgstr "時區"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2670
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2672
 msgid "To login…"
 msgstr "去登入…"
 
@@ -7747,7 +8280,7 @@ msgstr "路由追蹤"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:54
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:65
-#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:115
+#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:132
 msgid "Traffic"
 msgstr "流量"
 
@@ -7755,6 +8288,15 @@ msgstr "流量"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:84
 msgid "Traffic Class"
 msgstr "流量層級"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:500
+msgid "Traffic filter chain \"%h\""
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:438
+msgctxt "nft counter"
+msgid "Traffic matched by rule: %.1000mPackets, %.1024mBytes"
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:387
 msgid "Transfer"
@@ -7808,6 +8350,16 @@ msgstr "類型"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:181
 msgid "Type of service"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:53
+msgctxt "nft udp dport"
+msgid "UDP destination port"
+msgstr ""
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:52
+msgctxt "nft udp sport"
+msgid "UDP source port"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:328
@@ -7949,7 +8501,7 @@ msgstr "卸載"
 msgid "Unnamed key"
 msgstr "未命名的金鑰"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4019
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4312
 msgid "Unsaved Changes"
 msgstr "尚未存檔的修改"
 
@@ -7979,7 +8531,7 @@ msgstr "上線"
 msgid "Up Delay"
 msgstr "上線延遲"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3906
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4199
 msgid "Upload"
 msgstr "上傳"
 
@@ -8003,12 +8555,12 @@ msgid "Upload file…"
 msgstr "上傳檔案…"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2773
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3894
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4187
 msgid "Upload request failed: %s"
 msgstr "上傳失敗： %s"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3813
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3867
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4106
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4160
 msgid "Uploading file…"
 msgstr "上傳檔案中…"
 
@@ -8142,6 +8694,11 @@ msgstr "使用過期地圖界面識別碼格式 (draft-ietf-softwire-map-00) 替
 msgid "Use routing table"
 msgstr "使用路由表"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:58
+msgctxt "nft nat flag persistent"
+msgid "Use same source and destination for each connection"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1575
 msgid "Use system certificates"
 msgstr "使用系統憑證"
@@ -8195,6 +8752,10 @@ msgstr "使用者群組"
 msgid "User certificate (PEM encoded)"
 msgstr "使用者數位簽證(PEM編碼格式)"
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:186
+msgid "User identifier"
+msgstr "使用者識別碼"
+
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:132
 msgid "User key (PEM encoded)"
 msgstr "使用者金鑰(PEM編碼格式)"
@@ -8206,6 +8767,10 @@ msgstr "使用者金鑰(PEM編碼格式)"
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/sysauth.htm:18
 msgid "Username"
 msgstr "用戶名稱"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:121
+msgid "Utilize flow table <strong>%h</strong>"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1562
 msgid "VC-Mux"
@@ -8407,6 +8972,12 @@ msgid ""
 msgstr ""
 "將前綴委派給多個下游時，在分配子網路時，將首先考慮具有較高優先順序值的介面。"
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:109
+msgid ""
+"When enabled, gateway is on-link even if the gateway does not match any "
+"interface prefix"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1537
 msgid ""
 "When using a PSK, the PMK can be automatically generated. When enabled, the "
@@ -8441,7 +9012,7 @@ msgstr "WireGuard虛擬私人網路(VPN)"
 
 #: modules/luci-mod-network/root/usr/share/luci/menu.d/luci-mod-network.json:17
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:10
-#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:124
+#: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:141
 msgid "Wireless"
 msgstr "無線"
 
@@ -8501,7 +9072,7 @@ msgstr "將系統日誌寫入檔案"
 msgid "XOR policy (balance-xor, 2)"
 msgstr "位元互斥運算子(XOR)策略(balance-xor, 2)"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3974
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4038
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:297
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:345
 msgid "Yes"
@@ -8588,7 +9159,7 @@ msgid "bridged"
 msgstr "已橋接"
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:146
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:405
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:406
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:35
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:99
 #: modules/luci-compat/luasrc/view/cbi/network_netlist.htm:31
@@ -8635,6 +9206,11 @@ msgstr "建立:"
 msgid "dBm"
 msgstr "dBm"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:68
+msgctxt "nft unit"
+msgid "day"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1087
 msgid "disable"
 msgstr "關閉"
@@ -8674,7 +9250,7 @@ msgid "forced"
 msgstr "強制"
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:85
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:195
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:196
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:61
 msgid "forward"
 msgstr "轉發"
@@ -8698,6 +9274,11 @@ msgstr "十六進制編碼值"
 msgid "hidden"
 msgstr "隱藏"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:69
+msgctxt "nft unit"
+msgid "hour"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:771
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:879
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:913
@@ -8709,7 +9290,7 @@ msgid "ignore"
 msgstr "忽略"
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:69
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:191
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:192
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:46
 msgid "input"
 msgstr "輸入"
@@ -8729,6 +9310,11 @@ msgstr "受控設定 (M)"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1390
 msgid "medium security"
 msgstr "中等安全"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:70
+msgctxt "nft unit"
+msgid "minute"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1542
 msgid "minutes"
@@ -8756,7 +9342,7 @@ msgstr "未連線"
 msgid "non-empty value"
 msgstr "非空值"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3304
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3368
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:800
 msgid "none"
 msgstr "無"
@@ -8789,6 +9375,11 @@ msgstr "其他設定 (O)"
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:46
 msgid "output"
 msgstr "輸出"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:64
+msgctxt "nft unit"
+msgid "packets"
+msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:252
 msgid "positive decimal value"
@@ -8863,14 +9454,14 @@ msgstr "未知"
 msgid "unlimited"
 msgstr "無限"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3669
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3733
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:76
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:138
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:369
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:396
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:432
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:469
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:565
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:370
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:397
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:433
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:470
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:566
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:53
 #: modules/luci-compat/luasrc/view/cbi/network_netlist.htm:38
 msgid "unspecified"
@@ -9058,7 +9649,12 @@ msgstr "最多有 %d 字的值"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1391
 msgid "weak security"
-msgstr "不安全"
+msgstr "安全性不足"
+
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:67
+msgctxt "nft unit"
+msgid "week"
+msgstr "週"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:47
 msgid "yes"
@@ -9067,6 +9663,9 @@ msgstr "是"
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:20
 msgid "« Back"
 msgstr "« 倒退"
+
+#~ msgid "Firewall"
+#~ msgstr "防火牆"
 
 #~ msgid "Default %d"
 #~ msgstr "預設 %d"
