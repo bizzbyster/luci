@@ -29,7 +29,7 @@ return baseclass.extend({
 			vlabel: "Bytes/s",
 			data: {
 				instances: {
-					if_octets: graph.dataInstances(host, plugin, plugin_instance, "if_octets");
+					if_octets: graph.dataInstances(host, plugin, plugin_instance, "if_octets")
 				},
 				sources: {
 					if_octets: [ "tx", "rx" ],
