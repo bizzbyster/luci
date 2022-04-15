@@ -29,7 +29,7 @@ return baseclass.extend({
 			vlabel: "Bytes/s",
 			data: {
 				instances: {
-					if_octets: [ "3g_wwan", "eth1"]
+					if_octets: graph.dataInstances(host, plugin, plugin_instance, "if_octets")
 				},
 				sources: {
 					if_octets: [ "tx", "rx" ],
@@ -37,27 +37,27 @@ return baseclass.extend({
 				},
 				options: {
 					if_octets_eth1_tx: {
+						flip : true,		/* flip upload line */
 						total: true,		
 						color: "0000ff",	/* eth1 is blue */
-						title: "Viasat Bytes (TX)"
+						title: "Viasat Bytes (Upload)"
 					},
 					if_octets_eth1_rx: {
-						flip : true,		/* flip rx line */
 						total: true,	
 						color: "0000ff",	/* eth1 is blue */
-						title: "Viasat Bytes (RX)"
+						title: "Viasat Bytes (Download)"
 					},
 
 					if_octets_3g_wwan_tx: {
+						flip : true,		/* flip upload line */
 						total: true,	
 						color: "00ff00",	/* 3g_wwan is green */
-						title: "TMobile LTEBytes (TX)"
+						title: "TMobile LTEBytes (Upload)"
 					},
 					if_octets_3g_wwan_rx: {
-						flip : true,		/* flip rx line */
 						total: true,		
 						color: "00ff00",	/* 3g_wwan is green */
-						title: "TMobile LTEBytes (RX)"
+						title: "TMobile LTEBytes (Download)"
 					}
 				}
 			}
