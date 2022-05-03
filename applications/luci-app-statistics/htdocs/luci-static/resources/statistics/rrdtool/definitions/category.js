@@ -48,15 +48,15 @@ return baseclass.extend({
 						title: "Viasat Bytes (Download)"
 					},
 
-					if_octets_3g_wwan_tx: {
+					if_octets_wwan0_tx: {
 						flip : true,		/* flip upload line */
 						total: true,	
-						color: "00ff00",	/* 3g_wwan is green */
+						color: "00ff00",	/* wwan0 is green */
 						title: "TMobile LTEBytes (Upload)"
 					},
-					if_octets_3g_wwan_rx: {
+					if_octets_wwan0_rx: {
 						total: true,		
-						color: "00ff00",	/* 3g_wwan is green */
+						color: "00ff00",	/* wwan0 is green */
 						title: "TMobile LTEBytes (Download)"
 					}
 				}
